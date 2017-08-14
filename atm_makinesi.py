@@ -17,7 +17,7 @@ bakiye = 1000
 
 while True:
     işlem = input("İşlemi seçiniz: ")
-    if (işlem == "q"):
+    if (işlem == "q" or işlem == "Q"):
         print("Yine bekleriz.")
         break
     elif (işlem == "1"):
